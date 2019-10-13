@@ -1,6 +1,6 @@
 FROM alpine:latest as builder
 
-ARG version="1.1.3"
+ARG version="1.1.4"
 
 ENV DOWNLOAD_URL=https://github.com/mayswind/AriaNg/releases/download/${version}/AriaNg-${version}.zip
 ENV FILE_NAME=AriaNg-${version}.zip
